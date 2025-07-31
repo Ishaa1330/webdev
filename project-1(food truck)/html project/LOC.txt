@@ -1,0 +1,4 @@
+At public square;
+Near "CIAO knowledge park"
+sector: 42B
+

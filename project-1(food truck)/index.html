@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food truck</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<!-- <link rel="stylesheet" href="https://fonts.google.com/specimen/Lora"> -->
+<style>
+    /* css reset */
+    body{
+        color: rgb(153, 4, 4);
+        margin: 0px;
+        padding: 0px;
+        background: url('image(food).png');
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: 1155px;
+    }
+    .left{
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 51px;
+        top: 0px;
+        margin: 19px auto;
+    }
+    .left img{
+        width: 105px;
+        filter:invert(100%);
+    }
+    .left div{
+        text-align: center;
+        font-family: cursive;
+        padding: 0px 8px;
+        line-height: 1px;
+        font-size: 22px;
+}
+        
+
+    
+    .mid{
+        /* border: 2px solid rgb(68, 0, 255); */
+        display: block;
+        width: 43%;
+        margin: 12px auto;
+
+
+    }
+    .right{
+        /* border: 2px solid rgb(0, 204, 255); */
+        display: inline-block;
+        position:absolute;
+        right: 34px;
+        top: 0px;
+        margin: 19px auto;
+
+    }
+    .btn{
+        margin: 0px 4px;
+        color: brown;
+        background-color: rgb(182, 216, 205);
+        border-radius: 12px;
+        padding: 4px 8px ;
+        border: 2px solid rgb(128, 127, 127);
+        font-size: 15px;
+        cursor: pointer;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    .btn:hover{
+        background-color: rgb(163, 190, 182);
+        
+       }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li {
+        display: inline-block;
+    }
+    .navbar li a {
+        color: brown;
+        padding: 4px 8px;
+        text-decoration: none;
+        font-size: 25px;
+        
+    }
+     .navbar li a:hover /* , .navbar li a.active  */{
+        text-decoration: underline;
+        color: rgb(0, 124, 128);
+   
+    }
+     .container{
+        /* border: 2px solid blue; */
+        margin: -54px;
+        padding: 49px;
+        width: 30%;
+        border-radius: 20px;
+        position: sticky;
+        top: 1125px;
+        left: 4px;
+        
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 395px;
+        padding: 5px;
+        border: 2px solid brown;
+        margin: 4px auto;
+        font-size: 18px;
+    border-radius: 11px;
+    font-family: monospace;
+
+        
+    }
+    .container h1{
+        text-align:left;
+        
+    }
+    .container button{
+        display: block;
+        width: 22%;
+        margin:  8px auto ;
+    }
+    p{
+        /* border: 2px solid red; */
+        margin: 4px auto;
+        text-align: right;
+        font-family: cursive;
+        font-size: 19px;
+        width: 5%;
+        display: inline-block;
+        position:absolute;
+        bottom: -510px;
+        right: 2px;
+        padding: 4px;
+        
+
+    }
+    
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo.png" alt="">
+            <div>khate raho</div>
+        </div>
+        <!-- mid for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" target="_blank"  class="active">Home</a></li>
+                <li><a href="html project/abt.txt" target="_blank" >About us </a></li>
+                <li><a href="html project/menu.png!w700wp" target="_blank" >Menu</a></li>
+                <li><a href="html project/LOC.txt" target="_blank" >Truck locator</a></li>
+                <li><a href="html project/contact.txt" target="_blank" >Contact</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+<button class="btn">call us now</button>
+<button class="btn">e-mail us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Your words...</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="yours goodname ">
+                <input type="text" name="" placeholder="belong from">
+                <input type="text" name="" placeholder=" enter your feedback ">
+                
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <p>Dive into the best taste of your own food truck</p>
+    
+</body>
+</html>
